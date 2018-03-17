@@ -20,7 +20,7 @@ public class Reservation {
 	@Column(name = "booking_reference")
 	private String bookingReference;
 	@Column(name = "checkin")
-	private LocalDate chechin;
+	private LocalDate checkin;
 	@Column(name = "checkout")
 	private LocalDate checkout;
 	@Column(name = "room_number")
@@ -42,12 +42,12 @@ public class Reservation {
 		this.bookingReference = bookingReference;
 	}
 
-	public LocalDate getChechin() {
-		return chechin;
+	public LocalDate getCheckin() {
+		return checkin;
 	}
 
-	public void setChechin(LocalDate chechin) {
-		this.chechin = chechin;
+	public void setCheckin(LocalDate checkin) {
+		this.checkin = checkin;
 	}
 
 	public LocalDate getCheckout() {
