@@ -6,4 +6,5 @@ import com.media.hotel.model.RoomMaster;
 
 public interface RoomMasterRepository extends JpaRepository<RoomMaster, Integer> {
 
+	// this is a comment
 }
